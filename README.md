@@ -2,7 +2,7 @@
 
 ## Description
 This project is a simple copy of the famous online marketplace for short-term homestays and experiences (with the same name: <i>AirBnB</i>).
-<br><br> 
+<br>
 This project will be implemented in various steps. In each step, features will cover a concept which will the base of the next step.
 <br>
 After 4 months from now, we will have a complete web application composed by:
@@ -14,7 +14,15 @@ A database or files that store data (data = objects)
 
 # The Console
 ### ToDo
-* <em>How to start it</em>
+
+### <em>How to start it</em>
+Run the following command in terminal to start the console:
+
+```bash
+$ ./console.py
+(hbnb) help
+``` 
+
 * <em>How to use it</em>
 * <em>Examples</em>
 
