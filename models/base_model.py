@@ -19,15 +19,15 @@ class BaseModel:
             self.id = str(uuid.uuid4())
             self.created_at = datetime.now()
             self.updated_at = datetime.now()
-    
+
     def __str__(self):
         """Return string representation of object"""
         return "[{}] ({}) {}".format(type(self).__name__, self.id, self.__dict__)
-    
+
     def save(self):
         """Update the updated_at attribute with the current time"""
         self.updated_at = datetime.now()
-    
+
     def to_dict(self):
         """Return dictionary representation of the BaseModel instance"""
         new_dict = self.__dict__.copy()
